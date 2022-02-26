@@ -11,10 +11,10 @@ import org.springframework.stereotype.Component;
 public class Book {
     private long id;
     private String isbnNumber;
-    private String name;
+    private String title;
     private String author;
     private String publisher;
-    private String topic;
+    private String type;
 
 
 }
