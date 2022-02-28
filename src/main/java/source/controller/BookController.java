@@ -29,7 +29,7 @@ public class BookController {
         mockBookService.addBook(book);
    }
 
-   @PutMapping("/")
+   @PutMapping("")
    public void editBook(@RequestBody Book book){
         mockBookService.editBook(book);
    }

@@ -43,21 +43,20 @@ public class MockBookService implements BookService {
 
     public void addBook(Book book){
         List<Book> tmp = this.getBookList();
+        book.setId(nextId);
         tmp.add(book);
         this.setBookList(tmp);
         nextId++;
     }
 
     public void editBook(Book book){
-        this.setBookList(getBookList().stream().filter((el)->el.getId()==book.getId()).map((el)->el=book).collect(Collectors.toList()));
-
-        //        List<Book> tmp = getBookList();
-//        for(Book thing : tmp){
-//            if(thing.getId() == id){
-//                tmp.set(tmp.indexOf(thing),book);
-//            }
-//        }
-//        this.setBookList(tmp);
+        List<Book> tmp = getBookList();
+        for(Book thing : tmp){
+            if(thing.getId() == book.getId()){
+                tmp.set(tmp.indexOf(thing),book);
+            }
+        }
+        this.setBookList(tmp);
     }
 
     public void deleteBook(long id){

@@ -16,5 +16,5 @@ public class Book {
     private String publisher;
     private String type;
 
-
+    public Book(){}
 }
