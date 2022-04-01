@@ -18,7 +18,7 @@
     <!-- Bootstrap CSS -->
     <link href="<c:url value="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"  href="<c:url value="../theme/style.css"/>">
-    <title>USER_CRUD_MVC</title>
+    <title>BOOK_API</title>
 </head>
 <body>
 <header>
@@ -28,19 +28,19 @@
         <div class="collapse navbar-collapse" id="mainmenu">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/user/list">User List</a>
+                    <a class="nav-link" href="/admin/books/all">Books List</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/user/add">Add User</a>
+                    <a class="nav-link" href="/admin/books/add">Add Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/user/edit">Edit User</a>
+                    <a class="nav-link" href="/admin/books/edit">Edit Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/user/show">Show User</a>
+                    <a class="nav-link" href="/admin/books/show">Show Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/user/delete">Delete User</a>
+                    <a class="nav-link" href="/admin/books/delete">Delete Book</a>
                 </li>
             </ul>
         </div>
