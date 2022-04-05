@@ -2,7 +2,8 @@
 REST API to manage books</br>
 
 (ENG) </br>
-<p>This program enable us to create and manage Tasks from web view. Tasks are saved and updated in API/br>
+<p>This program enable us to create and manage Books from API inquiries and web view  
+Books are saved and updated via API in ORM database created with Hibernate/br>
 During creating this program I consolidated the knowledge about: 
 <ul> 
 <li>Spring</li> 
@@ -12,22 +13,23 @@ During creating this program I consolidated the knowledge about:
 <li>Validator</li>
 <li>Dependency Injection</li>
 </ul>
-We can create, update and delete Tasks from web view</br> 
-Each task has got its own operations assigned</br>
-We can dinammically add new operations, insert and update their time frames and delete them</br>
-Once we finish the task, we can dispose it by clicking on "Finish" button. </br>
-From this point on, we can't update operations or insert new ones</br>
-Every operation is saved in the API, so we can refresh the page and all data will be in place</br></br>
+We can create, update and delete Books with API inquiries</br> 
+Program operates using Spring Data JPA</br>
+Every operation is saved in the Hibernate ORM database</br>
+Additionally we can operate on books from web view</br></br>
 <p>When the repository is downloaded you will have to do a few things.</br>
 1)Download all needed software bulleted above. </br>
-2)Launch your IDE(Intellij UE, eclipse, etc.) </br>
-3)Open project as "new project from existing source", check Maven project and "import project from external mode"</br>
-4)Open index.html in your browser</br>
+2)Launch your IDE(Intellij UE, eclipse, etc.)
+3)Open project as "new project from existing source", check Maven project and "import project from external mode"
+4)Connect your IDE with MySQL and create database.
+5)Configure Tomcat. Application context in deployment tab should looks like '/' and artifact should be set on 'war:exploded'
+6)Navigate to resources. Open user.sql and execute all commands.
 Enjoy!</p> 
 </br>
 (PL) </br></br>
 <p> 
-Ten program umożliwia nam tworzenie i zarządzanie zadaniami z widoku internetowego. Zadania są zapisywane i aktualizowane w API</br>
+Ten program umożliwia nam tworzenie i zarządzanie książkami za pomocą zapytań api oraz widoku internetowego.
+Książki są zapisywane i aktualizowane poprzez API w bazie danych stworzonej w technologii ORM za pomocą Hibernate</br>
 Tworząc ten program utrwaliłem swoją wiedzę na temat:
 <ul> 
 <li>Spring</li> 
@@ -37,15 +39,15 @@ Tworząc ten program utrwaliłem swoją wiedzę na temat:
 <li>Validator</li>
 <li>Wstrzykiwania zależności</li>
 </ul>
-Możemy tworzyć, aktualizować i usuwać zadania z widoku internetowego</br>
-Każde zadanie ma przypisane własne operacje</br>
-Możemy dynamicznie dodawać nowe operacje, wstawiać i aktualizować ich ramy czasowe oraz je usuwać</br>
-Po zakończeniu zadania możemy je usunąć klikając przycisk „Finish”.</br>
-Od tego momentu nie możemy aktualizować operacji ani wstawiać nowych</br>
-Każda operacja jest zapisywana w API, dzięki czemu możemy odświeżyć stronę i wszystkie dane będą na swoim miejscu</br> </br>
+Możemy tworzyć, aktualizować i usuwać książki za pomocą zapytań API</br>
+Program wykorzystuje Spring Data JPA</br>
+Każda operacja na książce jest zapisywana w bazie danych poprzez Hibernate</br>
+Dodatkowo wszystkie operacje możemy wykonywać również z poziomu widoku internetowego</br></br>
 <p>Po pobraniu repozytorium będziesz musiał zrobić kilka rzeczy.</br>
 1) Pobierz wszystkie potrzebne oprogramowanie wymienione powyżej. </br>
-2) Uruchom swoje IDE (Intellij UE, Eclipse itp.) </br>
-3) Otwórz projekt jako „nowy projekt z istniejącego źródła”, wybierz projekt Maven i „importuj projekt z trybu zewnętrznego”</br>
-4) Otwórz index.html w swojej przeglądarce</br>
-Korzystaj!</p>
+2) Uruchom swoje IDE (Intellij UE, Eclipse itp.)
+3) Otwórz projekt jako „nowy projekt z istniejącego źródła”, wybierz projekt Maven i „importuj projekt z trybu zewnętrznego”
+4) Połącz swoje IDE z MySQL i utwórz bazę danych.
+5) Skonfiguruj Tomcata. Kontekst aplikacji na karcie wdrożenia powinien wyglądać tak - „/”, a artefakt powinien być ustawiony na „war:exploded”
+6) Przejdź do zasobów. Otwórz user.sql i wykonaj wszystkie komendy
+Korzystaj!
