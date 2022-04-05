@@ -5,9 +5,12 @@ REST API to manage books</br>
 <p>This program enable us to create and manage Tasks from web view. Tasks are saved and updated in API/br>
 During creating this program I consolidated the knowledge about: 
 <ul> 
-<li>JavaScript syntax</li> 
-<li>REST API</li>
-<li>DOM operations</li> 
+<li>Spring</li> 
+<li>Spring MVC</li>
+<li>Hibernate</li>
+<li>Spring Data Jpa</li>
+<li>Validator</li>
+<li>Dependency Injection</li>
 </ul>
 We can create, update and delete Tasks from web view</br> 
 Each task has got its own operations assigned</br>
@@ -29,8 +32,10 @@ Tworząc ten program utrwaliłem swoją wiedzę na temat:
 <ul> 
 <li>Spring</li> 
 <li>Spring MVC</li>
-<li>Wstrzykiwanie zależności</li>
-<li>import oraz wykorzystanie zewnętrznych bibliotek</li>
+<li>Hibernate</li>
+<li>Spring Data Jpa</li>
+<li>Validator</li>
+<li>Wstrzykiwania zależności</li>
 </ul>
 Możemy tworzyć, aktualizować i usuwać zadania z widoku internetowego</br>
 Każde zadanie ma przypisane własne operacje</br>
