@@ -3,7 +3,7 @@ REST API to manage books</br>
 
 (ENG) </br>
 <p>This program enable us to create and manage Books from API inquiries and web view  
-Books are saved and updated via API in ORM database created with Hibernate/br>
+Books are saved and updated via API in ORM database created with Hibernate</br>
 During creating this program I consolidated the knowledge about: 
 <ul> 
 <li>Spring</li> 
