@@ -9,7 +9,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <jsp:include page="../theme/header.jsp"/>
  <h2>Currently Stored Books</h2>
- <table>
+<button type="button"  name="addbook" onclick="window.location='/admin/books/add'">Add New User</button>
+ <table class="cinereousTable">
      <thead>
      <th>Id</th>
      <th>Title</th>
@@ -27,7 +28,11 @@
              <td>${book.isbnNumber}</td>
              <td>${book.publisher}</td>
              <td>${book.type}</td>
+             <td><a href="/admin/books/edit/${book.id}">EDIT</a> </td>
+             <td><a href="/admin/books/delete/${book.id}">DELETE</a> </td>
+             <td><a href="/admin/books/show/${book.id}">SHOW</a> </td>
          </tr>
      </c:forEach>
      </tbody>
+ </table>
 <jsp:include page="../theme/footer.jsp"/>

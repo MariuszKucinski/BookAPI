@@ -1,6 +1,7 @@
 package source.entity;
 
 import lombok.*;
+import org.hibernate.annotations.Proxy;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,6 +14,7 @@ import javax.persistence.Id;
 @ToString
 @EqualsAndHashCode
 @Entity
+@Proxy(lazy = false)
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
