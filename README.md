@@ -19,11 +19,11 @@ Every operation is saved in the Hibernate ORM database</br>
 Additionally we can operate on books from web view</br></br>
 <p>When the repository is downloaded you will have to do a few things.</br>
 1)Download all needed software bulleted above. </br>
-2)Launch your IDE(Intellij UE, eclipse, etc.)
-3)Open project as "new project from existing source", check Maven project and "import project from external mode"
-4)Connect your IDE with MySQL and create database.
-5)Configure Tomcat. Application context in deployment tab should looks like '/' and artifact should be set on 'war:exploded'
-6)Navigate to resources. Open user.sql and execute all commands.
+2)Launch your IDE(Intellij UE, eclipse, etc.) </br>
+3)Open project as "new project from existing source", check Maven project and "import project from external mode" </br>
+4)Connect your IDE with MySQL and create database. </br>
+5)Configure Tomcat. Application context in deployment tab should looks like '/' and artifact should be set on 'war:exploded' </br>
+6)Navigate to resources. Open user.sql and execute all commands. </br>
 Enjoy!</p> 
 </br>
 (PL) </br></br>
@@ -45,9 +45,9 @@ Każda operacja na książce jest zapisywana w bazie danych poprzez Hibernate</b
 Dodatkowo wszystkie operacje możemy wykonywać również z poziomu widoku internetowego</br></br>
 <p>Po pobraniu repozytorium będziesz musiał zrobić kilka rzeczy.</br>
 1) Pobierz wszystkie potrzebne oprogramowanie wymienione powyżej. </br>
-2) Uruchom swoje IDE (Intellij UE, Eclipse itp.)
-3) Otwórz projekt jako „nowy projekt z istniejącego źródła”, wybierz projekt Maven i „importuj projekt z trybu zewnętrznego”
-4) Połącz swoje IDE z MySQL i utwórz bazę danych.
-5) Skonfiguruj Tomcata. Kontekst aplikacji na karcie wdrożenia powinien wyglądać tak - „/”, a artefakt powinien być ustawiony na „war:exploded”
-6) Przejdź do zasobów. Otwórz user.sql i wykonaj wszystkie komendy
+2) Uruchom swoje IDE (Intellij UE, Eclipse itp.) </br>
+3) Otwórz projekt jako „nowy projekt z istniejącego źródła”, wybierz projekt Maven i „importuj projekt z trybu zewnętrznego” </br>
+4) Połącz swoje IDE z MySQL i utwórz bazę danych. </br>
+5) Skonfiguruj Tomcata. Kontekst aplikacji na karcie wdrożenia powinien wyglądać tak - „/”, a artefakt powinien być ustawiony na „war:exploded” </br>
+6) Przejdź do zasobów. Otwórz user.sql i wykonaj wszystkie komendy </br>
 Korzystaj!
