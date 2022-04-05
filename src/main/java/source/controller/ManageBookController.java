@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import source.entity.Book;
 import source.serviceimpl.JpaBookService;
 
+import javax.transaction.Transactional;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -32,6 +33,7 @@ public class ManageBookController {
     }
 
     @GetMapping("/edit/{id:[1-9]{1}[0-9]{0,}}")
+    @Transactional
     public String getEditBook(@PathVariable(name = "id")long id, Model model){
         model.addAttribute("book", bookService.getBookById(id));
         return "/books/add";

@@ -12,7 +12,7 @@
     <title>Title</title>
 </head>
 <body>
- <form:form modelAttribute="book" method="post" enctype="multipart/form-data">
+ <form:form modelAttribute="book" method="post" action="/admin/books/add">
      <label>Book title:</label>
      <form:input path="title"/>
 
